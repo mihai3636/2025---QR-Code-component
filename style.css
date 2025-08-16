@@ -1,0 +1,101 @@
+/*
+
+Default paragraph: 15px
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+Font family: Outfit
+
+ -Colors:
+
+
+ - Shade:rgba(31, 50, 81, 1)
+ 
+ - Primary: rgba(104, 119, 141, 1)
+
+ - Tint: rgba(214, 226, 240, 1)
+
+ - Greys: #fff
+
+- Font weights
+Default: 400
+Bold: 700
+
+
+
+*/
+
+/*
+- Mobile: 375px
+- Desktop: 1440px
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", "sans-serif";
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  height: 100vh;
+
+  background-color: rgba(214, 226, 240, 1);
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  width: 34rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 2.4rem;
+}
+
+.card-content {
+  padding-inline: 1.6rem;
+}
+
+.card-title {
+  font-size: 2.4rem;
+  text-align: center;
+  color: rgba(31, 50, 81, 1);
+  margin-bottom: 2.4rem;
+
+  line-height: 1.2;
+}
+
+.card-text {
+  color: rgba(104, 119, 141, 1);
+  text-align: center;
+  margin-bottom: 3.2rem;
+  line-height: 1.4;
+}
