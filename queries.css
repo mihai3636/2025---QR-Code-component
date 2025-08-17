@@ -1,0 +1,6 @@
+/* Below 416 px */
+@media (max-width: 26em) {
+  html {
+    font-size: 50%;
+  }
+}
